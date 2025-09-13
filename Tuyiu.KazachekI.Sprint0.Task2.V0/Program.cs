@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tuyiu.KazachekI.Sprint0.Task2.V0
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(dataservice.getmessage("Иван"));
+            Console.ReadKey();
+        }
+    }
+}
